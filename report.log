@@ -1,0 +1,41 @@
+2022-04-27 00:17:06,103 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (6,)
+Traceback (most recent call last):
+  File "/home/commander/.local/lib/python3.10/site-packages/pyswarms/backend/generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+  File "mtrand.pyx", line 1134, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 579, in numpy.random._common.cont
+  File "_common.pyx", line 496, in numpy.random._common.cont_broadcast_2
+  File "__init__.pxd", line 742, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (10, 6) and arg 1 with shape (10, 8).
+2022-04-27 10:50:42,280 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (6,)
+Traceback (most recent call last):
+  File "/home/commander/.local/lib/python3.10/site-packages/pyswarms/backend/generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+  File "mtrand.pyx", line 1134, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 579, in numpy.random._common.cont
+  File "_common.pyx", line 496, in numpy.random._common.cont_broadcast_2
+  File "__init__.pxd", line 742, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (10, 6) and arg 1 with shape (10, 8).
+2022-04-27 10:52:27,579 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (6,)
+Traceback (most recent call last):
+  File "/home/commander/.local/lib/python3.10/site-packages/pyswarms/backend/generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+  File "mtrand.pyx", line 1134, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 579, in numpy.random._common.cont
+  File "_common.pyx", line 496, in numpy.random._common.cont_broadcast_2
+  File "__init__.pxd", line 742, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (10, 6) and arg 1 with shape (10, 2).
+2022-04-27 10:54:35,156 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (6,)
+Traceback (most recent call last):
+  File "/home/commander/.local/lib/python3.10/site-packages/pyswarms/backend/generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+  File "mtrand.pyx", line 1134, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 579, in numpy.random._common.cont
+  File "_common.pyx", line 496, in numpy.random._common.cont_broadcast_2
+  File "__init__.pxd", line 742, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (10, 6) and arg 1 with shape (10, 2).
+2022-04-27 10:59:50,607 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (6,)
+Traceback (most recent call last):
+  File "/home/commander/.local/lib/python3.10/site-packages/pyswarms/backend/generators.py", line 65, in generate_swarm
+    np.all(bounds[0] <= init_pos) and np.all(init_pos <= bounds[1])
+ValueError: operands could not be broadcast together with shapes (8,) (6,) 
